@@ -1,0 +1,101 @@
+Last updated June 12,2013
+
+This End User License Agreement (the Agreement”) is between you and us, PM-Productions GbR, and governs your use of the application called “Was hat SIE gesagt” made available for use on smartphones and other electronic devices (the “App”). 
+
+This Agreement governs your use of the App including any updates to, or supplements or replacements for, the App, unless separate terms accompany such updates, supplements or replacements, in which case the separate terms will apply. To use the App, you must accept this Agreement, so please read it carefully. 
+1	LICENSE TO USE THE APP
+1.1	We grant you a limited, non-exclusive, non-transferrable, revocable license to use the App for your personal, non-commercial purposes. You may only use the App on a device that you own or control and that is permitted by any applicable usage rules applied by your device’s manufacturer or by the marketplace at which we have made the App available. Any use of the App in any other manner, including, without limitation, resale, transfer, modification or distribution of the App or text, pictures, music, video, data and other content associated with the App is prohibited.
+1.2	Except for your data (see section 3), we or our licensors own the intellectual property rights of the App and of the content of the App. Your right to such intellectual property right is limited to what is expressly stated in this Agreement.
+1.3	This Agreement is concluded only between you and us and not with your device’s manufacturer or by the marketplace at which we have made the App available. Subject to the terms of this Agreement, we are responsible for the App and the content thereof, and not such third parties.
+2	ACCEPTABLE USE
+2.1	You must not use the App in any way that causes, or may cause, damage to the App or impairment of the availability or accessibility of the App; or in any way which is unlawful, illegal, fraudulent or harmful (including any manner that harasses, abuses, stalks, threatens, defames or otherwise infringes or violates the rights of any other party).
+2.2	You must not use the App to copy, store, host, transmit, send, use, publish or distribute any content which consists of (or is linked to) spyware, computer virus, trojan horse, worm, keystroke logger, rootkit or other malicious computer software.
+2.3	You must not conduct any systematic or automated data collection activities (including, without limitation, scraping, data mining, data extraction, data harvesting and data traffic sniffing) on or in relation to the App.
+2.4	With regard to the competitive functions of the App, you must not use the App in any way that could be deemed dishonest or unfair in order to gain an advantage over other users.
+2.5	You represent and warrant that you are not located in a country that is subject to a U.S. Government embargo, or that has been designated by the U.S. Government as a “terrorist supporting” country; and that you are not listed on any U.S. Government list of prohibited or restricted parties.
+3	YOUR DATA
+3.1	In the following, “Your Data” means quiz questions, avatars, text, images, audio material, video material and other information that you submit to the App, for whatever purpose. Your Data does however not include your e-mail address, user ID or password.
+3.2	You grant to us a worldwide, irrevocable, non-exclusive, royalty-free licence to use, reproduce, adapt, publish, translate and distribute Your Data in any existing or future media. You also grant to us the right to sub-license these rights and the right to bring an action for infringement of these rights.
+3.3	Your Data must not be illegal or unlawful, must not infringe any third party’s legal rights and must not be capable of giving rise to legal action whether against you or us or a third party (in each case under any applicable law).
+3.4	We do not guarantee that any quiz questions, preferred modifications or other requests submitted to us are published on or otherwise included in the App. We reserve the right to edit or remove any information submitted to us, or stored on our servers, or hosted or published upon the App.
+4	PREMIUM SERVICES
+4.1	You may subscribe to premium services made available by us from time to time, subject to any applicable fees (the “Premium Services”). The Premium Services enhances the App by adding additional features not made generally available in the standard version of the App. Any Premium Services subscribed and paid for shall be considered a part of the App, as referred to in this Agreement. In addition, the following terms will apply.
+4.2	You acknowledge and agree that we may at any time:
+(a)	remove features from the Premium Services, without any right for you to receive a refund of fees paid for such Premium Services, unless fundamental features have been removed without replacement of other comparable features;
+(b)	add new features that are considered Premium Services, that may or may not be subject to additional fees, if you choose to subscribe for such new features;
+(c)	change existing Premium Services, that may or may not be subject to additional fees (if you choose to subscribe for such new features), and that do not qualify for any refund, unless fundamental features have been removed without replacement of other comparable features.
+4.3	Your right to any Premium Service you have subscribed and paid for is limited to the platform and edition of the App for which you have added the Premium Service. It does therefore not include other editions of the App or other applications made available by us or any other party on this or other platforms.
+5	PRIVACY
+5.1	Information we collect from you
+5.1.1	When using the App, we may collect, store and use the following kinds of personal information about you:
+(a)	information about the device from which you access the App (such as device identifier, IP address, operating system and version);
+(b)	technical information about the App you have installed (such as version);
+(c)	information about your use of the App (such as quiz questions answered and messages sent to other users via the App);
+(d)	information provided by you upon registration or subsequent preferences made by you in the App (such as e-mail address, language and avatar); and
+(e)	any other information that you choose to send to us or store in the App.
+5.1.2	Before you disclose personal information of another person to us, you must obtain that person’s consent to both the disclosure and the processing of that personal information in accordance with the terms of this Agreement.
+5.2	Our use of your personal information
+5.2.1	We may use your personal information to:
+(a)	administer the App;
+(b)	improve your experience by personalising the App based upon your use of the App;
+(c)	enable your use of the services available on the App and supply to you the services purchased or requested via the App;
+(d)	collect payments from you, process payments you make via the App, refund such payments and deal with complaints and queries relating to such payments and refunds;
+(e)	send you general (non-marketing) commercial communications;
+(f)	send you email notifications which you have specifically requested;
+(g)	send you our newsletter and other marketing communications relating to our business which we think may be of interest to you, by email or in-App messaging;
+(h)	deal with enquiries and complaints made by or about you relating to the App;
+(i)	keep the App secure and prevent fraud; and
+(j)	verify compliance with this Agreement (including monitoring messages sent through the App’s messaging service).
+5.3	Disclosures
+5.3.1	We may disclose your personal information to any of our employees, agents, suppliers or subcontractors and to any member of our group of companies (this means our subsidiaries, our ultimate holding company and all its subsidiaries) insofar as reasonably necessary for the purposes set out above.
+5.3.2	In addition, we may disclose your personal information:
+(a)	to the extent that we are required to do so by any applicable law;
+(b)	in connection with any on-going or prospective legal proceedings;
+(c)	in order to establish, exercise or defend our legal rights;
+(d)	to the purchaser (or prospective purchaser) of any business or asset that we are (or are contemplating) selling; and
+(e)	to any person who we reasonably believe may apply to a court or other competent authority for disclosure of that personal information where, in our reasonable opinion, such court or authority would be reasonably likely to order disclosure of that personal information.
+5.4	International data transfers
+5.4.1	Information that we collect may be stored and processed in and transferred between any of the countries in which we operate in order to enable us to use the information in accordance with this Agreement.
+5.4.2	Information which you provide may be transferred to countries (including the United States) which do not have data protection laws equivalent to those in force in the European Economic Area.
+5.4.3	In addition, some information that you submit for publication on the App (such as in-App messaging) may be available for other users, subject to your preferences. We cannot prevent the use or misuse of such information by others.
+5.4.4	You expressly agree to such international transfers of personal information.
+5.5	Your rights
+5.5.1	You may instruct us to provide you with the personal information we hold about you. Provision of such information will be free of charge once a year, and then subject to a fee.
+5.5.2	You may instruct us not to process your personal information for marketing purposes.
+5.5.3	You may instruct us to correct or update any incorrect or outdated personal information that we hold about you.
+5.5.4	For us to be able to process any instruction according to this section 5.5, you must supply appropriate evidence of your identity, including a correct e-mail address or user ID. The instruction must be in writing and duly signed by you.
+6	COOKIES
+6.1	The App uses cookies. A cookie is a file containing an identifier (a string of letters and numbers) that is sent by our servers to your device and is stored by the device. The identifier is then sent back to the server each time the device makes a request to the server. This enables the server to identify and track the device and use of the App.
+6.2	We will use cookies to:
+(a)	enable our App to recognise you when you use the App;
+(b)	keep track of your preferences in relation to your use of the App;
+(c)	keep track of you whilst you navigate the App.
+6.3	In some cases you may be able to reject cookies. Blocking cookies will, however, have a negative impact upon the usability of the App.
+7	LIMITED WARRANTIES
+7.1	We do not warrant the completeness or accuracy of the information published on the App; nor do we commit to ensuring that the App remains available or that the content on the App is kept up to date.
+7.2	The App is provided “as is” and you use the App at your own risk. To the fullest extent allowable under applicable law, we disclaim all warranties and conditions, whether express or implied, including any warranties or conditions that the App is merchantable, of satisfactory quality, reliable, accurate, fit for a particular purpose or need, non-infringing or free of defects or errors or able to operate on an uninterrupted basis, or that the use of the application by you is in compliance with laws applicable or that information transmitted in con-nection with the App will be successfully, accurately or securely transmitted.
+7.3	In the event of any failure of the App to conform to any applicable warranty, you may notify the marketplace from which you have downloaded the App (such as Apple), and, if applicable, it will refund the purchase price (if any) for the App to you and, to the maximum extent permitted by applicable law, it will have no other warranty obligation whatsoever with respect to the App, and any other claims, losses, liabilities, damages, costs or expenses attributable to any failure to conform to any warranty will be our sole responsibility.
+8	NO LIABILITY
+8.1	To the fullest extent allowable under applicable law, in no event shall we be liable to you with respect to use of the App; and be liable to you for any direct, indirect, special, incidental, consequential, or exemplary damages, including, without limitation, damages for loss of goodwill, lost profits, loss, theft or corruption of user information, the inability to use the App or device failure or malfunction.
+8.2	Your sole remedy is to cease use of the App. To the fullest extent allowable under applicable law, in no event (but subject to the maximum extent permitted by applicable law) shall the aggregate liability of us, whether in contract, tort (including negligence), strict liability or other theory, arising out of or relating to the use of or inability to use the App exceed the compensation you have paid, if any, to us for access to or use of the App.
+9	INDEMNITY
+9.1	At our request, you agree to defend, indemnify, and hold harmless us, and our employees, contractors, officers, and directors from any and all claims, damages, costs, penalties and expenses (including attorney’s fees) that arise from your use or misuse of the App, violation of this Agreement or violation of any rights of a third party.
+9.2	We reserve the right to assume the exclusive defence and control of any matter otherwise subject to indemnification by you, in which event you will co-operate in asserting any available defences. In the event of any third party claim that the App or your possession and use of the App infringes that third party’s intellectual property right, we, not the marketplace at which you have downloaded the App, will be solely responsible for the investigation, defence, settlement and discharge of any such intellectual property infringement claim.
+10	LIMITING YOUR ACCESS TO THE APP
+10.1	If we believe that you breach this Agreement in any way, we may take such action as we deem appropriate to deal with the breach, including suspending your access to the App, prohibiting you from accessing the App, blocking devices using your IP address from accessing the App, contacting your internet service provider to request that they block your access to the App and/or bringing court proceedings against you.
+11	THIRD PARTY BENEFICIARY
+11.1	Provided that you have downloaded the App from the Apple App Store, Apple, and Apple’s subsidiaries, are third party beneficiaries of this Agreement. Upon your acceptance of this Agreement, Apple will have the right (and will be deemed to have accepted the right) to enforce this Agreement against you as a third party beneficiary thereof.
+12	CHANGES
+12.1	We reserve the right to change or modify this Agreement or any other policies referred to herein related to use of the App at any time and at our sole discretion by posting revisions on our website or in the App. Continued use of the App following the posting of these changes or modifications will constitute acceptance of such changes or modifications.
+13	ASSIGNMENT
+13.1	We may transfer, sub-contract or otherwise deal with our rights and/or obligations under this Agreement without notifying you or obtaining your consent.
+13.2	You may not transfer, sub-contract or otherwise deal with your rights and/or obligations under this Agreement.
+14	SEVERABILITY
+14.1	If a provision of this Agreement is determined by any court or other competent authority to be unlawful and/or unenforceable, the other provisions will continue in effect. If any unlawful and/or unenforceable provision would be lawful or enforceable if part of it were deleted, that part will be deemed to be deleted, and the rest of the provision will continue in effect.
+15	LAW AND JURISDICTION
+15.1	This Agreement will be governed by and construed in accordance with Swedish law, and any disputes relating to this Agreement will be subject to the exclusive jurisdiction of the courts of Sweden.
+16	CONTACT US
+16.1	The full name of our company is PM-Productions GbR.
+16.2	Our postal address is Box P.Busch Hegelstr.66 55122 Mainz
+16.3	You can contact us by e-mail to pm-productions@web.de
+

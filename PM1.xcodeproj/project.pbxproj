@@ -8,11 +8,39 @@
 
 /* Begin PBXBuildFile section */
 		8E41AA0119EC554200494051 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E41AA0019EC554200494051 /* AppDelegate.swift */; };
-		8E41AA0319EC554200494051 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E41AA0219EC554200494051 /* ViewController.swift */; };
+		8E41AA0319EC554200494051 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E41AA0219EC554200494051 /* QuizViewController.swift */; };
 		8E41AA0619EC554200494051 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E41AA0419EC554200494051 /* Main.storyboard */; };
 		8E41AA0819EC554200494051 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E41AA0719EC554200494051 /* Images.xcassets */; };
 		8E41AA0B19EC554200494051 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E41AA0919EC554200494051 /* LaunchScreen.xib */; };
 		8E41AA1719EC554200494051 /* PM1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E41AA1619EC554200494051 /* PM1Tests.swift */; };
+		8E6D7FD519ED75F400ECA98C /* questionList.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8E6D7FD419ED75F400ECA98C /* questionList.txt */; };
+		8E6D7FD919ED921000ECA98C /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6D7FD819ED921000ECA98C /* ScoreViewController.swift */; };
+		8E6D7FE119ED9C4700ECA98C /* BFF.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E6D7FDA19ED9C4700ECA98C /* BFF.png */; };
+		8E6D7FE219ED9C4700ECA98C /* dagehtnochwas.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E6D7FDB19ED9C4700ECA98C /* dagehtnochwas.png */; };
+		8E6D7FE419ED9C4700ECA98C /* nicht_schlecht.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E6D7FDD19ED9C4700ECA98C /* nicht_schlecht.png */; };
+		8E6D7FE519ED9C4700ECA98C /* pfui.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E6D7FDE19ED9C4700ECA98C /* pfui.png */; };
+		8E6D7FE619ED9C4700ECA98C /* seelenverwandt.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E6D7FDF19ED9C4700ECA98C /* seelenverwandt.png */; };
+		8E6D7FE719ED9C4700ECA98C /* unsterblicheliebe.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E6D7FE019ED9C4700ECA98C /* unsterblicheliebe.png */; };
+		8E6D7FED19EDA0C200ECA98C /* logoquer58x58.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E6D7FE819EDA0C200ECA98C /* logoquer58x58.png */; };
+		8E6D7FEE19EDA0C200ECA98C /* logoquer80x80.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E6D7FE919EDA0C200ECA98C /* logoquer80x80.png */; };
+		8E6D7FEF19EDA0C200ECA98C /* logoquer87x87.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E6D7FEA19EDA0C200ECA98C /* logoquer87x87.png */; };
+		8E6D7FF019EDA0C200ECA98C /* logoquer120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E6D7FEB19EDA0C200ECA98C /* logoquer120x120.png */; };
+		8E6D7FF119EDA0C200ECA98C /* logoquer180x180.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E6D7FEC19EDA0C200ECA98C /* logoquer180x180.png */; };
+		8E907B7119F00CA400D0CBA8 /* QuizScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E907B7019F00CA400D0CBA8 /* QuizScene.swift */; };
+		8E907B7319F0108200D0CBA8 /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E907B7219F0108200D0CBA8 /* Timer.swift */; };
+		8E907B7519F016AC00D0CBA8 /* categoryList.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8E907B7419F016AC00D0CBA8 /* categoryList.txt */; };
+		8EA8E97E19ED3A300078B23F /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA8E97D19ED3A300078B23F /* Question.swift */; };
+		8EAB682319EEDB3800232C2B /* kategorie_freundebuch.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EAB681E19EEDB3800232C2B /* kategorie_freundebuch.png */; };
+		8EAB682419EEDB3800232C2B /* kategorie_liebesex.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EAB681F19EEDB3800232C2B /* kategorie_liebesex.png */; };
+		8EAB682519EEDB3800232C2B /* kategorie_lifestyle.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EAB682019EEDB3800232C2B /* kategorie_lifestyle.png */; };
+		8EAB682619EEDB3800232C2B /* kategorie_unsinn.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EAB682119EEDB3800232C2B /* kategorie_unsinn.png */; };
+		8EAB682719EEDB3800232C2B /* kategorie_weltweit.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EAB682219EEDB3800232C2B /* kategorie_weltweit.png */; };
+		8ECC5A5319EFE642007AF135 /* ImpressumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECC5A5219EFE642007AF135 /* ImpressumViewController.swift */; };
+		8ECC5A5519EFF9D6007AF135 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECC5A5419EFF9D6007AF135 /* MainViewController.swift */; };
+		8ECC5A5819EFFCAE007AF135 /* anleitung.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8ECC5A5619EFFCAE007AF135 /* anleitung.txt */; };
+		8ECC5A5919EFFCAE007AF135 /* impressum.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8ECC5A5719EFFCAE007AF135 /* impressum.txt */; };
+		8ECC5A5B19EFFD0B007AF135 /* AnleitungViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECC5A5A19EFFD0B007AF135 /* AnleitungViewController.swift */; };
+		8ED9B28D19ED2F6B00AAA7FE /* Quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED9B28C19ED2F6B00AAA7FE /* Quiz.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +57,41 @@
 		8E41A9FB19EC554200494051 /* PM1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PM1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E41A9FF19EC554200494051 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8E41AA0019EC554200494051 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8E41AA0219EC554200494051 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8E41AA0219EC554200494051 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 		8E41AA0519EC554200494051 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8E41AA0719EC554200494051 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8E41AA0A19EC554200494051 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		8E41AA1019EC554200494051 /* PM1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PM1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E41AA1519EC554200494051 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8E41AA1619EC554200494051 /* PM1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PM1Tests.swift; sourceTree = "<group>"; };
+		8E6D7FD419ED75F400ECA98C /* questionList.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = questionList.txt; sourceTree = "<group>"; };
+		8E6D7FD819ED921000ECA98C /* ScoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
+		8E6D7FDA19ED9C4700ECA98C /* BFF.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BFF.png; sourceTree = "<group>"; };
+		8E6D7FDB19ED9C4700ECA98C /* dagehtnochwas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dagehtnochwas.png; sourceTree = "<group>"; };
+		8E6D7FDD19ED9C4700ECA98C /* nicht_schlecht.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nicht_schlecht.png; sourceTree = "<group>"; };
+		8E6D7FDE19ED9C4700ECA98C /* pfui.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pfui.png; sourceTree = "<group>"; };
+		8E6D7FDF19ED9C4700ECA98C /* seelenverwandt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = seelenverwandt.png; sourceTree = "<group>"; };
+		8E6D7FE019ED9C4700ECA98C /* unsterblicheliebe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unsterblicheliebe.png; sourceTree = "<group>"; };
+		8E6D7FE819EDA0C200ECA98C /* logoquer58x58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoquer58x58.png; sourceTree = "<group>"; };
+		8E6D7FE919EDA0C200ECA98C /* logoquer80x80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoquer80x80.png; sourceTree = "<group>"; };
+		8E6D7FEA19EDA0C200ECA98C /* logoquer87x87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoquer87x87.png; sourceTree = "<group>"; };
+		8E6D7FEB19EDA0C200ECA98C /* logoquer120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoquer120x120.png; sourceTree = "<group>"; };
+		8E6D7FEC19EDA0C200ECA98C /* logoquer180x180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoquer180x180.png; sourceTree = "<group>"; };
+		8E907B7019F00CA400D0CBA8 /* QuizScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizScene.swift; sourceTree = "<group>"; };
+		8E907B7219F0108200D0CBA8 /* Timer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
+		8E907B7419F016AC00D0CBA8 /* categoryList.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = categoryList.txt; sourceTree = "<group>"; };
+		8EA8E97D19ED3A300078B23F /* Question.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		8EAB681E19EEDB3800232C2B /* kategorie_freundebuch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kategorie_freundebuch.png; sourceTree = "<group>"; };
+		8EAB681F19EEDB3800232C2B /* kategorie_liebesex.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kategorie_liebesex.png; sourceTree = "<group>"; };
+		8EAB682019EEDB3800232C2B /* kategorie_lifestyle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kategorie_lifestyle.png; sourceTree = "<group>"; };
+		8EAB682119EEDB3800232C2B /* kategorie_unsinn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kategorie_unsinn.png; sourceTree = "<group>"; };
+		8EAB682219EEDB3800232C2B /* kategorie_weltweit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kategorie_weltweit.png; sourceTree = "<group>"; };
+		8ECC5A5219EFE642007AF135 /* ImpressumViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImpressumViewController.swift; sourceTree = "<group>"; };
+		8ECC5A5419EFF9D6007AF135 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		8ECC5A5619EFFCAE007AF135 /* anleitung.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = anleitung.txt; sourceTree = "<group>"; };
+		8ECC5A5719EFFCAE007AF135 /* impressum.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = impressum.txt; sourceTree = "<group>"; };
+		8ECC5A5A19EFFD0B007AF135 /* AnleitungViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnleitungViewController.swift; sourceTree = "<group>"; };
+		8ED9B28C19ED2F6B00AAA7FE /* Quiz.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quiz.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,10 +134,38 @@
 			isa = PBXGroup;
 			children = (
 				8E41AA0019EC554200494051 /* AppDelegate.swift */,
-				8E41AA0219EC554200494051 /* ViewController.swift */,
+				8E41AA0219EC554200494051 /* QuizViewController.swift */,
+				8E907B7019F00CA400D0CBA8 /* QuizScene.swift */,
+				8E907B7219F0108200D0CBA8 /* Timer.swift */,
+				8ECC5A5419EFF9D6007AF135 /* MainViewController.swift */,
+				8ECC5A5219EFE642007AF135 /* ImpressumViewController.swift */,
+				8ECC5A5A19EFFD0B007AF135 /* AnleitungViewController.swift */,
+				8E6D7FD819ED921000ECA98C /* ScoreViewController.swift */,
+				8EA8E97D19ED3A300078B23F /* Question.swift */,
+				8ED9B28C19ED2F6B00AAA7FE /* Quiz.swift */,
 				8E41AA0419EC554200494051 /* Main.storyboard */,
 				8E41AA0719EC554200494051 /* Images.xcassets */,
 				8E41AA0919EC554200494051 /* LaunchScreen.xib */,
+				8E6D7FD419ED75F400ECA98C /* questionList.txt */,
+				8E6D7FDA19ED9C4700ECA98C /* BFF.png */,
+				8E6D7FDB19ED9C4700ECA98C /* dagehtnochwas.png */,
+				8E6D7FDD19ED9C4700ECA98C /* nicht_schlecht.png */,
+				8E6D7FDE19ED9C4700ECA98C /* pfui.png */,
+				8E6D7FDF19ED9C4700ECA98C /* seelenverwandt.png */,
+				8E6D7FE019ED9C4700ECA98C /* unsterblicheliebe.png */,
+				8E6D7FE819EDA0C200ECA98C /* logoquer58x58.png */,
+				8E6D7FE919EDA0C200ECA98C /* logoquer80x80.png */,
+				8E6D7FEA19EDA0C200ECA98C /* logoquer87x87.png */,
+				8E6D7FEB19EDA0C200ECA98C /* logoquer120x120.png */,
+				8E6D7FEC19EDA0C200ECA98C /* logoquer180x180.png */,
+				8EAB681E19EEDB3800232C2B /* kategorie_freundebuch.png */,
+				8EAB681F19EEDB3800232C2B /* kategorie_liebesex.png */,
+				8EAB682019EEDB3800232C2B /* kategorie_lifestyle.png */,
+				8EAB682119EEDB3800232C2B /* kategorie_unsinn.png */,
+				8EAB682219EEDB3800232C2B /* kategorie_weltweit.png */,
+				8ECC5A5619EFFCAE007AF135 /* anleitung.txt */,
+				8ECC5A5719EFFCAE007AF135 /* impressum.txt */,
+				8E907B7419F016AC00D0CBA8 /* categoryList.txt */,
 				8E41A9FE19EC554200494051 /* Supporting Files */,
 			);
 			path = PM1;
@@ -192,9 +276,29 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E6D7FE419ED9C4700ECA98C /* nicht_schlecht.png in Resources */,
+				8EAB682319EEDB3800232C2B /* kategorie_freundebuch.png in Resources */,
 				8E41AA0619EC554200494051 /* Main.storyboard in Resources */,
+				8E6D7FE719ED9C4700ECA98C /* unsterblicheliebe.png in Resources */,
+				8E6D7FE519ED9C4700ECA98C /* pfui.png in Resources */,
+				8E6D7FF019EDA0C200ECA98C /* logoquer120x120.png in Resources */,
+				8EAB682419EEDB3800232C2B /* kategorie_liebesex.png in Resources */,
 				8E41AA0B19EC554200494051 /* LaunchScreen.xib in Resources */,
+				8E6D7FED19EDA0C200ECA98C /* logoquer58x58.png in Resources */,
+				8E6D7FE219ED9C4700ECA98C /* dagehtnochwas.png in Resources */,
+				8E6D7FEF19EDA0C200ECA98C /* logoquer87x87.png in Resources */,
+				8EAB682619EEDB3800232C2B /* kategorie_unsinn.png in Resources */,
+				8E6D7FE119ED9C4700ECA98C /* BFF.png in Resources */,
+				8E6D7FD519ED75F400ECA98C /* questionList.txt in Resources */,
+				8EAB682519EEDB3800232C2B /* kategorie_lifestyle.png in Resources */,
+				8E6D7FE619ED9C4700ECA98C /* seelenverwandt.png in Resources */,
+				8E907B7519F016AC00D0CBA8 /* categoryList.txt in Resources */,
+				8EAB682719EEDB3800232C2B /* kategorie_weltweit.png in Resources */,
+				8E6D7FEE19EDA0C200ECA98C /* logoquer80x80.png in Resources */,
 				8E41AA0819EC554200494051 /* Images.xcassets in Resources */,
+				8E6D7FF119EDA0C200ECA98C /* logoquer180x180.png in Resources */,
+				8ECC5A5919EFFCAE007AF135 /* impressum.txt in Resources */,
+				8ECC5A5819EFFCAE007AF135 /* anleitung.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,8 +316,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E41AA0319EC554200494051 /* ViewController.swift in Sources */,
+				8ECC5A5519EFF9D6007AF135 /* MainViewController.swift in Sources */,
+				8ECC5A5319EFE642007AF135 /* ImpressumViewController.swift in Sources */,
+				8E41AA0319EC554200494051 /* QuizViewController.swift in Sources */,
+				8E907B7319F0108200D0CBA8 /* Timer.swift in Sources */,
+				8EA8E97E19ED3A300078B23F /* Question.swift in Sources */,
+				8E6D7FD919ED921000ECA98C /* ScoreViewController.swift in Sources */,
+				8E907B7119F00CA400D0CBA8 /* QuizScene.swift in Sources */,
 				8E41AA0119EC554200494051 /* AppDelegate.swift in Sources */,
+				8ECC5A5B19EFFD0B007AF135 /* AnleitungViewController.swift in Sources */,
+				8ED9B28D19ED2F6B00AAA7FE /* Quiz.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +517,7 @@
 				8E41AA1C19EC554200494051 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8E41AA1D19EC554200494051 /* Build configuration list for PBXNativeTarget "PM1Tests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +526,7 @@
 				8E41AA1F19EC554200494051 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
