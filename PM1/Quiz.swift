@@ -56,7 +56,7 @@ class Quiz {
     
     func readCategories() -> Array<String> {
         let path = NSBundle.mainBundle().pathForResource("categoryList", ofType: "txt")
-        var possibleContent = String.stringWithContentsOfFile(path!, encoding: NSUTF8StringEncoding, error: nil)
+        var possibleContent = String(contentsOfFile: path!, encoding:NSUTF8StringEncoding, error: nil)
         
         if let content = possibleContent {
             return content.componentsSeparatedByString("\n")
@@ -70,7 +70,7 @@ class Quiz {
         var questionList: Array<Question> = []
         
         let path = NSBundle.mainBundle().pathForResource("questionList", ofType: "txt")
-        var possibleContent = String.stringWithContentsOfFile(path!, encoding: NSUTF8StringEncoding, error: nil)
+        var possibleContent = String(contentsOfFile: path!, encoding:NSUTF8StringEncoding, error: nil)
 
         if let content = possibleContent {
             var rawQuestions = content.componentsSeparatedByString("\n")

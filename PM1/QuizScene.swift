@@ -24,14 +24,14 @@ class QuizScene: SKScene {
         var timePassed = lastTick!.timeIntervalSinceNow * -1000.0
         println(timePassed)
         if timePassed > tickLengthMillis {
-            lastTick = NSDate.date()
+            lastTick = NSDate()
             println("ka")
             tick?
         }
     }
     
     func startTicking() {
-        lastTick = NSDate.date()
+        lastTick = NSDate()
     }
     
     func stopTicking() {
