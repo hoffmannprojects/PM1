@@ -12,25 +12,32 @@ class Quiz {
     
     // Instance variables
     var allQuestions: Array<Question> = []
-    var categories: Array<String> = []
+    var allCategories: Array<Category> = []
     var instanceQuestions: Array<Question> = []
     var round: Int = 0
     var pointArray: Array<Int> = [0]
     var currentQuestionNumber: Int = 0
+    var currentCategoryNumber: Int = 0
     var totalRounds: Int = 2
+    var questionsPerRound: Int = 3
     
     //MARK: Methods for initialization and reset
     
     init() {
         // Initialize category array
-        categories = readCategories()
-        println(categories)
+        allCategories = readCategories()
         
         // Initialize array containing all questions
         allQuestions = readQuestions()
         
+        // Put the questions into their respective categories
+        sortQuestionsIntoCategories(allQuestions)
+        
         // Draw the questions for the current round
-        instanceQuestions = drawQuestions()
+        //instanceQuestions = drawQuestions()
+        
+        // Go to random category
+        pickCategory(Int(arc4random_uniform(UInt32(allCategories.count))))
     }
     
     func newRound() {
@@ -41,7 +48,10 @@ class Quiz {
         currentQuestionNumber = 0
         
         // Draw new questions
-        instanceQuestions = drawQuestions()
+        instanceQuestions = drawQuestions(numberOfQuestions: questionsPerRound)
+        
+        // Go to random category
+        pickCategory(Int(arc4random_uniform(UInt32(allCategories.count))))
     }
     
     func reset() {
@@ -54,15 +64,23 @@ class Quiz {
         instanceQuestions = drawQuestions()
     }
     
-    func readCategories() -> Array<String> {
+    func readCategories() -> Array<Category> {
+        var categoryList : Array<Category> = []
+        
         let path = NSBundle.mainBundle().pathForResource("categoryList", ofType: "txt")
         var possibleContent = String(contentsOfFile: path!, encoding:NSUTF8StringEncoding, error: nil)
         
         if let content = possibleContent {
-            return content.componentsSeparatedByString("\n")
-        } else {
-            return []
+            var rawCategories = content.componentsSeparatedByString("\n")
+            
+            for line in rawCategories {
+                var newCategory: Category
+                newCategory = Category(category: line)
+                categoryList.append(newCategory)
+            }
         }
+        
+        return categoryList
     }
     
     func readQuestions() -> Array<Question> {
@@ -77,7 +95,7 @@ class Quiz {
             
             for line in rawQuestions {
                 var contents = line.componentsSeparatedByString(";")
-                var category: Int = contents.removeAtIndex(0).toInt()!
+                var category: Int = contents.removeAtIndex(0).toInt()! - 1 // We use zero-based indexing internally for categories
                 var questionText = contents.removeAtIndex(0)
                 var newQuestion = Question(question: questionText, answers: contents, category: category)
                questionList.append(newQuestion)
@@ -85,6 +103,17 @@ class Quiz {
         }
 
         return questionList
+    }
+    
+    func sortQuestionsIntoCategories(questions: Array<Question>) -> () {
+        for question in questions {
+            allCategories[question.getCategoryNumber()].addQuestion(question)
+        }
+    }
+    
+    func pickCategory(categoryNumber: Int) -> () {
+        currentCategoryNumber = categoryNumber
+        getCurrentCategory().drawQuestions(numberOfQuestions: questionsPerRound)
     }
     
     func drawQuestions(numberOfQuestions: Int = 3) -> Array<Question> {
@@ -108,8 +137,13 @@ class Quiz {
     
     //MARK: Getter and setter methods
     
+    func getCurrentCategory() -> Category {
+        return allCategories[currentCategoryNumber]
+    }
+    
     func getCurrentQuestion() -> Question {
-        return instanceQuestions[currentQuestionNumber]
+        //return instanceQuestions[currentQuestionNumber]
+        return getCurrentCategory().getCurrentQuestion(currentQuestionNumber)
     }
     
     func goToFirstQuestion() {
@@ -146,7 +180,7 @@ class Quiz {
     }
     
     func getTotalQuestionNumber() -> Int {
-        return instanceQuestions.count
+        return questionsPerRound
     }
     
     func nextQuestion() {
@@ -154,7 +188,8 @@ class Quiz {
     }
     
     func phaseEnded() -> Bool {
-        return currentQuestionNumber == instanceQuestions.count - 1
+        //return currentQuestionNumber == instanceQuestions.count - 1
+        return currentQuestionNumber == questionsPerRound - 1
     }
     
     func getRound() -> Int {
@@ -166,7 +201,7 @@ class Quiz {
         return totalRounds
     }
     
-    func getCategory() -> String {
-        return categories[getCurrentQuestion().getCategoryNumber()]
+    func getCategory() -> Category {
+        return allCategories[getCurrentQuestion().getCategoryNumber()]
     }
 }
